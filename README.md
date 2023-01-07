@@ -1,5 +1,7 @@
 <h1>Tuto pour résoudre les problèmes Monogame</h1>
 
+Lisez bien le tuto à la lettre et ne loupez aucune étape !
+
 <h2>Tous les using sont en rouge</h2>
 
   ![image](https://user-images.githubusercontent.com/90217410/211167009-65300581-81f0-4767-8a0a-8c4e21c2aa07.png)
