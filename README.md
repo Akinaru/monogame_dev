@@ -27,5 +27,5 @@
   Si vous avez une erreur de ce genre, c'est que vous avez sans doute la mauvaise version de mgcb-editor
   Pour vérifier cela, vous pouvez faire dotnet tool list -g dans un cmd et si mgcb-editor est en 3.8.1, le problème vien de la vesion.
   
-  1)En premier on désinstalle mgcb-editor en faisant <a>dotnet tool uninstall dotnet-mgcb-editor -g</a>
+  1)En premier on désinstalle mgcb-editor en faisant <bold>dotnet tool uninstall dotnet-mgcb-editor -g</bold>
   2)Puis on réinstalle la bonne version avec <a>dotnet tool install --global dotnet-mgcb-editor --version 3.8.0.1641</a>
