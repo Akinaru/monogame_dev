@@ -20,5 +20,4 @@ Donc quand on charge sont projet depuis un autre pc, il se peut que ceux-ci ne s
 
 5) Puis séléctionnez votre nouvelle source en haut a droite, et réinstallez tous vos package.
 Si les étapes ont été suivies correctement, les package devraint être chargés correctement. Et ne plus avoir de problème dans l'image ci dessous.
-
 ![image](https://user-images.githubusercontent.com/90217410/211167030-2ac006c7-1239-4556-8b54-d438bc8d7855.png)
