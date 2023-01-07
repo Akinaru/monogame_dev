@@ -35,23 +35,23 @@ Lisez bien le tuto à la lettre et ne loupez aucune étape !
   ![image](https://user-images.githubusercontent.com/90217410/211167699-daec41f4-6bc1-429f-b206-67fc1f94e888.png)
 
   
-  1)En premier on désinstalle mgcb-editor en faisant dotnet tool uninstall dotnet-mgcb-editor -g
-  2)Puis on réinstalle la bonne version avec <span color="red">dotnet tool install --global dotnet-mgcb-editor --version 3.8.0.1641</span>
-  3)Après cela vous pouvez vérifier la version avec la commande dotnet tool list -g
+  1) En premier on désinstalle mgcb-editor en faisant dotnet tool uninstall dotnet-mgcb-editor -g
+  2) Puis on réinstalle la bonne version avec <span color="red">dotnet tool install --global dotnet-mgcb-editor --version 3.8.0.1641</span>
+  3) Après cela vous pouvez vérifier la version avec la commande dotnet tool list -g
   
   ![image](https://user-images.githubusercontent.com/90217410/211167710-6f043a04-35af-4a3e-af75-ce6488c7bf4c.png)
   
-  4)Lorsqu'il est réinstallé, assurez vous de bien changer le chemin (ouvrir avec) du Content.mgcb dans votre projet par celui dans C:\Users\UTILISATEUR\.dotnet\tools
+  4) Lorsqu'il est réinstallé, assurez vous de bien changer le chemin (ouvrir avec) du Content.mgcb dans votre projet par celui dans C:\Users\UTILISATEUR\.dotnet\tools
   
   ![image](https://user-images.githubusercontent.com/90217410/211167720-51eb0cbb-85eb-461a-b315-33d0445226ad.png)
 
-  5)Si après changement, le content.mgcb ne se lance pas, c'est que vous avez probablement pas let Net core 3.1. Vérifiez en faisait mgcb-editor dans une console et si vous avez ce message c'est que s'est le cas:
+  5) Si après changement, le content.mgcb ne se lance pas, c'est que vous avez probablement pas let Net core 3.1. Vérifiez en faisait mgcb-editor dans une console et si vous avez ce message c'est que s'est le cas:
 
 ![image](https://user-images.githubusercontent.com/90217410/211167862-8d119258-5dec-4e23-9ff6-4636423fdfac.png)
 
   Installez le Net Core 3.1 sur le site officle de microsoft: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
 
-  6)Pour finir, pensez à changer vos références du content: Cliquez sur Le content tout en haut, puis dans la fenetre Properties, cliquez sur references, et supprimez celle existantes et ajoutez celle dans C:\Users\UTILISATEUR\.nuget\packages\monogame.extended.content.pipeline\3.8.0\tools
+  6) Pour finir, pensez à changer vos références du content: Cliquez sur Le content tout en haut, puis dans la fenetre Properties, cliquez sur references, et supprimez celle existantes et ajoutez celle dans C:\Users\UTILISATEUR\.nuget\packages\monogame.extended.content.pipeline\3.8.0\tools
   
   ![image](https://user-images.githubusercontent.com/90217410/211167985-c323fd2d-bae9-42aa-a96a-7ef8959e0cf5.png)
 
