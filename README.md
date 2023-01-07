@@ -23,16 +23,22 @@
   ![image](https://user-images.githubusercontent.com/90217410/211167030-2ac006c7-1239-4556-8b54-d438bc8d7855.png)
 
 <h2>Erreur dotnet lors de l'execution de mgcb-editor</h2>
+  
   ![image](https://user-images.githubusercontent.com/90217410/211167692-6dc373f5-6a48-4c8c-850c-b69c848689d9.png)
-  Si vous avez une erreur de ce genre, c'est que vous avez sans doute la mauvaise version de mgcb-editor
+ 
+   Si vous avez une erreur de ce genre, c'est que vous avez sans doute la mauvaise version de mgcb-editor
+  
   Pour vérifier cela, vous pouvez faire dotnet tool list -g dans un cmd et si mgcb-editor est en 3.8.1, le problème vien de la vesion.
+  
   ![image](https://user-images.githubusercontent.com/90217410/211167699-daec41f4-6bc1-429f-b206-67fc1f94e888.png)
 
   
   1)En premier on désinstalle mgcb-editor en faisant dotnet tool uninstall dotnet-mgcb-editor -g
   2)Puis on réinstalle la bonne version avec dotnet tool install --global dotnet-mgcb-editor --version 3.8.0.1641
   3)Après cela vous pouvez vérifier la version avec la commande dotnet tool list -g
+  
   ![image](https://user-images.githubusercontent.com/90217410/211167710-6f043a04-35af-4a3e-af75-ce6488c7bf4c.png)
+  
   4)Lorsqu'il est réinstallé, assurez vous de bien changer le chemin (ouvrir avec) du Content.mgcb dans votre projet par celui dans C:\Users\UTILISATEUR\.dotnet\tools
   
   ![image](https://user-images.githubusercontent.com/90217410/211167720-51eb0cbb-85eb-461a-b315-33d0445226ad.png)
