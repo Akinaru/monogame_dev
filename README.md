@@ -34,5 +34,6 @@
   3)Après cela vous pouvez vérifier la version avec la commande dotnet tool list -g
   ![image](https://user-images.githubusercontent.com/90217410/211167710-6f043a04-35af-4a3e-af75-ce6488c7bf4c.png)
   4)Lorsqu'il est réinstallé, assurez vous de bien changer le chemin (ouvrir avec) du Content.mgcb dans votre projet par celui dans C:\Users\UTILISATEUR\.dotnet\tools
+  
   ![image](https://user-images.githubusercontent.com/90217410/211167720-51eb0cbb-85eb-461a-b315-33d0445226ad.png)
 
