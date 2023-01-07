@@ -36,7 +36,7 @@ Lisez bien le tuto à la lettre et ne loupez aucune étape !
 
   
   1)En premier on désinstalle mgcb-editor en faisant dotnet tool uninstall dotnet-mgcb-editor -g
-  2)Puis on réinstalle la bonne version avec dotnet tool install --global dotnet-mgcb-editor --version 3.8.0.1641
+  2)Puis on réinstalle la bonne version avec <p>dotnet tool install --global dotnet-mgcb-editor --version 3.8.0.1641</p>
   3)Après cela vous pouvez vérifier la version avec la commande dotnet tool list -g
   
   ![image](https://user-images.githubusercontent.com/90217410/211167710-6f043a04-35af-4a3e-af75-ce6488c7bf4c.png)
