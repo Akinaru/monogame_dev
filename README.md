@@ -49,3 +49,4 @@
 
   Installez le Net Core 3.1 sur le site officle de microsoft: [![Uploading image.png…]()](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
 
+  6)Pour finir, pensez à changer vos références du content: Cliquez sur Le content tout en haut, puis dans la fenetre Properties, cliquez sur references, et supprimez celle existantes et ajoutez celle dans C:\Users\UTILISATEUR\.nuget\packages\monogame.extended.content.pipeline\3.8.0\tools
