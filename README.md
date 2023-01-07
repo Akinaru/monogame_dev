@@ -43,3 +43,7 @@
   
   ![image](https://user-images.githubusercontent.com/90217410/211167720-51eb0cbb-85eb-461a-b315-33d0445226ad.png)
 
+  5)Si après changement, le content.mgcb ne se lance pas, c'est que vous avez probablement pas let Net core 3.1. Vérifiez en faisait mgcb-editor dans une console et si vous avez ce message c'est que s'est le cas:
+
+![image](https://user-images.githubusercontent.com/90217410/211167862-8d119258-5dec-4e23-9ff6-4636423fdfac.png)
+
