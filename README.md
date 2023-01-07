@@ -47,3 +47,5 @@
 
 ![image](https://user-images.githubusercontent.com/90217410/211167862-8d119258-5dec-4e23-9ff6-4636423fdfac.png)
 
+  Installez le Net Core 3.1 sur le site officle de microsoft: [![Uploading image.png…]()](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
+
