@@ -23,6 +23,8 @@ Lisez bien le tuto à la lettre et ne loupez aucune étape !
   5) Puis séléctionnez votre nouvelle source en haut a droite, et réinstallez tous vos package.
   Si les étapes ont été suivies correctement, les package devraint être chargés correctement. Et ne plus avoir de problème dans l'image ci dessous.
   ![image](https://user-images.githubusercontent.com/90217410/211167030-2ac006c7-1239-4556-8b54-d438bc8d7855.png)
+  6)Finalement, pensez a changer la version des deux package de base de monogame en double cliquant sur le projet et en mettant 3.8.0.1641.
+  ![image](https://user-images.githubusercontent.com/90217410/211192607-3aa1fded-6ee6-4a43-9873-0b15d412b796.png)
 
 <h2>Erreur dotnet lors de l'execution de mgcb-editor</h2>
   
